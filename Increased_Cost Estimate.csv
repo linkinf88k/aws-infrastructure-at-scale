@@ -1,0 +1,32 @@
+Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,18944.87,227338.44,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,278,3336,USD,,"Hosted Zones (6), Additional Records in Hosted Zones (100000), Basic Checks Within AWS (300), Number of Elastic Network Interfaces (), IP (CIDR) blocks (1000)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,0,0,USD,,
+My Estimate,US East (N. Virginia),,S3 Standard,0,1150,13800,USD,,S3 Standard storage (50000 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,,
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,8717.44,104609.28,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 32), Advance EC2 instance (m6g.xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (2000 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,4016.12,48193.44,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (500 GB), Quantity (1), Instance type (db.m6g.8xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),,VPN Connection,0,0,0,USD,,Working days per month (22)
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,954.45,11453.4,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,,"DT Inbound: Internet (100 TB per month), DT Outbound: Not selected (50 TB per month), DT Intra-Region: (0 TB per month), Data transfer cost (0)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,2936.43,35237.16,USD,,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Network Load Balancer,0,892.43,10709.16,USD,,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (200 GB per hour)"
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,0,0,USD,,"Number of Metrics (includes detailed and custom metrics) (), GetMetricData: Number of metrics requested (), GetMetricWidgetImage: Number of metrics requested (), Number of other API requests ()"
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+,,,,,,,,,
+"The changes been made									",,,,,,,,,
+Route 53 - Changes Hosted Zones to 6,,,,,,,,,
+"RDS service change Instance from m5.2xlarge to db.m6g.8xlarge, Storage amount from 20GB to 500GB								",,,,,,,,,
+"S3 bucket change Standard Storage from 5000 (GB/month) to 50000 (GB/monnth) and adds the S3 Intelligent - Tiering, S3 Glacier Deep Archive to store infrequently files									",,,,,,,,,
+"EC2 service change the instance from m5.xlarge to m6g.xlarge and add 16 instances more									",,,,,,,,,
+"Application Load Balancer increases Load Balancer Capacity									",,,,,,,,,
